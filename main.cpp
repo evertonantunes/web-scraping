@@ -381,7 +381,7 @@ namespace std
 
 int main()
 {
-    for (const auto ticker : {"enbr3", "itsa4"})
+    for (const auto ticker : {"unip3", "klbn11"})
     {
         const auto results = html::parsers::dividends(request::get("https://statusinvest.com.br/acoes/" + std::string(ticker)));
 
